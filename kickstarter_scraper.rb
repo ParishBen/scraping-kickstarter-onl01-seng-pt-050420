@@ -2,6 +2,7 @@
 require "nokogiri"
 
 def create_project_hash
+<<<<<<< HEAD
   html = File.read('fixtures/kickstarter.html')
   docs = Nokogiri::HTML(html)
   allprojectshash = {}
@@ -18,3 +19,8 @@ def create_project_hash
 end
 
 
+=======
+  doc = Nokogiri::HTML(open())
+  
+end
+>>>>>>> 920e1c88a655d56a559ee61164bcc203ea43d952
